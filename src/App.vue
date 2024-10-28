@@ -1,7 +1,9 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import cover from "@/components/cover.vue"
+import animate_description from "@/components/animate_description.vue"
 </script>
 
 <template>
-<HelloWorld/>
+<cover/>
+<animate_description/>
 </template>

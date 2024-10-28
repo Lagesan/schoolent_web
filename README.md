@@ -27,3 +27,13 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## Don't forget to disable the SSL verification if there is a error:
+``` sh
+fatal: unable to access 'https://github.com/Lagesan/schoolent_web.git/': OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 0
+```
+use:
+```sh
+git config --global http.sslVerify false
+
+```
